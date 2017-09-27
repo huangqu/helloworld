@@ -1,6 +1,7 @@
 uint8_t DevID = 1;
 uint16_t testindex;		
-uint16_t timecnt;		
+uint16_t timecnt;
+uint16_t abc;
 void cmd_process(uint8_t *recvdata,uint32_t len, uint8_t *senddata, uint32_t *sendlen)
 {
 	uint8_t id;
